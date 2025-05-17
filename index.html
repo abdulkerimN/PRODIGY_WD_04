@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal portfolio website." />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">AN</div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-image-container">
+                    <div class="image-frame">
+                        <img src="images/profyle.png" alt="Abdulkerim Neja" class="profile-image" loading="lazy">
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <h1>Selam, I'm <span class="highlight">Abdulkerim Neja</span></h1>
+                    <p>Software Engineering Student <br>Junior Web Developer <br>Tech Enthusiast</p>
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h3>Background</h3>
+                        <p>I am a passionate web developer. My journey in web development began Last Semester in 2024.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Education</h3>
+                        <p>Highschool Diploma<br>Addis Ketema Preparatory School<br>AKPS</p>
+                        <p>Undergraduate Student<br>CTBE, AAU</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Experience</h3>
+                        <p>Volunteer<br>CHFE: Cardiac Center Ethiopia</p>
+                        <p>First Aid Training<br>Blue Health Ethiopia</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="skills-content">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item"><i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="skill-item"><i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="skill-item"><i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-item"><i class="fab fa-figma"></i>
+                        <h3>Figma</h3>
+                    </div>
+                    <div class="skill-item"><i class="fas fa-database"></i>
+                        <h3>MySQL</h3>
+                    </div>
+                    <div class="skill-item"><i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="projects-content">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img src="images/samsung.jpg" alt="Samsung Figma Design" class="project-image" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h3>Simple Figma Design</h3>
+                            <p>I used Figma to design Samsung Galaxy</p>
+                            <a href="https://drive.google.com/file/d/1gpgHo2gpRgBtQxycELPMh76YrNMX-3h2/view?usp=sharing" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img src="images/stopwatch.jpg" alt="Stopwatch App" class="project-image" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h3>Stop Watch</h3>
+                            <p>It Can Start Stop Reset Lap</p>
+                            <a href="https://abdulkerimn.github.io/PRODIGY_WD_02/" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img src="images/Tictactoe game.jpg" alt="Tic Tac Toe Game" class="project-image" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h3>Tic Tac Toe Game</h3>
+                            <p>Play with AI or a Friend</p>
+                            <a href="https://abdulkerimn.github.io/PRODIGY_WD_03/" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img src="images/landing page.jpg" alt="Landing Page" class="project-image" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h3>Landing Page</h3>
+                            <p>Simple Landing Page</p>
+                            <a href="https://abdulkerimn.github.io/PRODIGY_WD_01/" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="contact-content">
+                <h2>Get in Touch</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required />
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2025 AN. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
